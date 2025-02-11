@@ -1,5 +1,22 @@
 # 📌 Flat Budget API - Database Schema
 
+## 🛠️ Running the Application
+
+The Flat Budget API is designed to help users estimate the cost of furnishing their home by tracking materials, rooms, and projects efficiently.
+
+
+The application is built using **NestJS**, **Swagger**, **MongoDB**, and **Docker**.
+
+To start the application using Docker, run:
+```sh
+docker compose up -d --build
+```
+
+Once the application is running, access the API documentation at:
+[http://localhost:3000/api/v1/docs](http://localhost:3000/api/v1/docs)
+
+---
+
 ## 📊 Database Schema Overview
 This document describes the **database schema** for the Flat Budget API. The schema is designed to **track projects, rooms, materials, and their usage**, including the cost calculations.
 
@@ -83,23 +100,11 @@ Endpoints:
 
 ---
 
-## 🛠️ Running the Application
-
-To start the application using Docker, run:
-```sh
-docker compose up -d --build
-```
-
-Once the application is running, access the API documentation at:
-[http://localhost:3000/api/v1/docs](http://localhost:3000/api/v1/docs)
-
----
-
 ## 🎯 Next Steps
-- Implement CRUD operations for each entity.
 - Optimize queries using **indexes** and **aggregation pipelines**.
 - Implement API authentication and authorization.
 
 ---
 
 🚀 **Flat Budget API - Making cost estimation easy!**
+

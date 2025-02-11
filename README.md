@@ -1,4 +1,4 @@
-# 📌 Flat Budget API - Database Schema
+# 📌 Flat Budget API
 
 ## 🛠️ Running the Application
 

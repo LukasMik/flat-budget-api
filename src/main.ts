@@ -51,7 +51,7 @@ async function bootstrap() {
       UsedMaterialsModule,
     ],
   });
-  SwaggerModule.setup('api/v1', app, documentV1);
+  SwaggerModule.setup('api/v1/docs', app, documentV1);
 
   // ✅ Swagger V2
   const configV2 = new DocumentBuilder()
@@ -62,7 +62,7 @@ async function bootstrap() {
   const documentV2 = SwaggerModule.createDocument(app, configV2, {
     include: [ProjectsModuleV2],
   });
-  SwaggerModule.setup('api/v2', app, documentV2);
+  SwaggerModule.setup('api/v2/docs', app, documentV2);
 
   await app.listen(process.env.PORT ?? 3000).then(() => {
     console.log(`🚀 Application running at port ${process.env.PORT ?? 3000}`);

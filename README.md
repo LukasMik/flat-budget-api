@@ -103,6 +103,7 @@ Endpoints:
 ## 🎯 Next Steps
 - Optimize queries using **indexes** and **aggregation pipelines**.
 - Implement API authentication and authorization.
+- Add tests
 
 ---
 
